@@ -1,0 +1,9 @@
+[package]
+name = "mugo-jmdict"
+description = "Library for integrating mugo and jmdict"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+mugo = { git = "https://github.com/crumblingstatue/mugo.git" }
+jmdict = { git = "https://github.com/crumblingstatue/rust-jmdict.git" }
